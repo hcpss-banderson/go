@@ -1,2 +1,2 @@
 # go
-A go docker inage
+A go docker image
