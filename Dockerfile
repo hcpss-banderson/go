@@ -9,8 +9,8 @@ RUN apt-get update && apt-get install -y \
   libgit2-24 \
   libgit2-dev
 
-RUN wget https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz && \
-  tar -C /usr/local -xzf go1.6.2.linux-amd64.tar.gz && \
+RUN wget https://storage.googleapis.com/golang/go1.10.3.linux-amd64.tar.gz && \
+  tar -C /usr/local -xzf go1.10.3.linux-amd64.tar.gz && \
   mkdir /go
 
 ENV GOPATH /go
